@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "liquityPools",
+				"outputs": [
+					{
+						"internalType": "contract Factoring",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newFactoring",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PFG/ListFact.sol": "ListFactoring"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x24b04b8aacaaf1a4a0719117b29c9c3647b1f479c5ac2a60f5ff1bb6d839c238",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43e46da9d9f49741ecd876a269e71bc7494058d7a8e9478429998adb5bc3eaa0",
+				"dweb:/ipfs/QmUtp4cqzf22C5rJ76AabKADquGWcjsc33yjYXxXC4sDvy"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"PFG/AMM.sol": {
+			"keccak256": "0xca7c39590252f3033257df20e658da0ba5870fafef5ca8e92eeb117764c111d8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e373fb340e5e5c82764bfd018b32fca340a422b29780071e70dc1dede03ddd2a",
+				"dweb:/ipfs/QmcjPYUuz4acxa6eJU81NjmK4n58xKycEsq7K3aQqgsiRj"
+			]
+		},
+		"PFG/Factoring.sol": {
+			"keccak256": "0x36be4c4cb710d0bffeef2ddca316743e7cf4e794ff1db99295cf39142164dc0a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://296d8a7c9324368b3cb851c070b988e9f5fbe6913d5fd14f1723bb2125cd1a97",
+				"dweb:/ipfs/QmQ1Nc8Tnsi8RTrX74sWfR8ztkhRZQiaHQDrfiVbWfJmQU"
+			]
+		},
+		"PFG/Interest.sol": {
+			"keccak256": "0xfe6f02685d20aa3116983e7120b2f670d1941d4af2e92273ada2cca35594add2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://78047edde3fdd253f72843940ea1232c300bc62697e36535d5b570a373beb08c",
+				"dweb:/ipfs/QmYmXFNL8Db8z4NaYUS1vSwnEFpnav3XNQN1md9VJYrp1z"
+			]
+		},
+		"PFG/ListFact.sol": {
+			"keccak256": "0x207de2d86bbc16640a3063590e70a1131b1a40eb7bed5e21c21684939d1a0b06",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dbfaf458ad0d0b91bdbe820777da09e12d504bc96553ec599d47e9a1a2973e03",
+				"dweb:/ipfs/QmPVv82aeRsN74cGhx1CrV4HyDWpMMnZguGsrrCt4M23WM"
+			]
+		},
+		"PFG/Tokenitzar.sol": {
+			"keccak256": "0x61e7335fc3ee8d75593657413a2e59e2e9a2c7982931b07972d318f672dff7e7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cec2c977a639252930e1bfaaa7178011e33f588982bfb04006d06939a569ea59",
+				"dweb:/ipfs/QmfUWbAHpCJ7wAdAfup9vk4W8csg2NkcmiCxR15wiKfB1W"
+			]
+		},
+		"PFG/Verificador.sol": {
+			"keccak256": "0x4447070dc799cefd52706b21e5f418154718c1cb68cf36bd2065d330bc15cfcb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a4a781931a3724520365565c999f8fdc6f68f701591af85bb91fd7fba5fbef5a",
+				"dweb:/ipfs/QmXfp4CqE2msJmme88HJ692fG3dDiqWY8MrXWAnwZwWmY5"
+			]
+		}
+	},
+	"version": 1
+}

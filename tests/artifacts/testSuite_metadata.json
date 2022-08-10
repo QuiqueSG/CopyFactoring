@@ -1,0 +1,216 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkArbit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkStartFactoring",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ethers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factoring",
+				"outputs": [
+					{
+						"internalType": "contract Factoring",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"checkETH()": {
+					"notice": "#sender: account-2 #value: 25800000000000000"
+				},
+				"checkStartFactoring()": {
+					"notice": "#sender: account-1 #value: 80000000000000000"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Factoring_test.sol": "testSuite"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x24b04b8aacaaf1a4a0719117b29c9c3647b1f479c5ac2a60f5ff1bb6d839c238",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43e46da9d9f49741ecd876a269e71bc7494058d7a8e9478429998adb5bc3eaa0",
+				"dweb:/ipfs/QmUtp4cqzf22C5rJ76AabKADquGWcjsc33yjYXxXC4sDvy"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"PFG/AMM.sol": {
+			"keccak256": "0xa3ff97e283317cb93b27d01d516dea61b8f8cef4ebc05d0664f0847aac6b6b4d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8ac797cd8d2596221814d38e180335da7a57d95b28354a6a56eba87b25709923",
+				"dweb:/ipfs/QmWaacTQCgEW64H34piXSKkHB5K3npKeVRN7RhodkrpDgH"
+			]
+		},
+		"PFG/Factoring.sol": {
+			"keccak256": "0x8c54d047decbe3c7809d6495b860387a9e4d91262a1bf430762bad900a307e9a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://15e5cacffb2d10c52353d523c033e887512bd298409623cc880b55587627d4d6",
+				"dweb:/ipfs/QmeWMgzCnmHon7YsKcCT1j7D5XojHSXwhVBAF28RzLsQPL"
+			]
+		},
+		"PFG/Interest.sol": {
+			"keccak256": "0xfe6f02685d20aa3116983e7120b2f670d1941d4af2e92273ada2cca35594add2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://78047edde3fdd253f72843940ea1232c300bc62697e36535d5b570a373beb08c",
+				"dweb:/ipfs/QmYmXFNL8Db8z4NaYUS1vSwnEFpnav3XNQN1md9VJYrp1z"
+			]
+		},
+		"PFG/Tokenitzar.sol": {
+			"keccak256": "0x84c8762f4be49b5cd4bd77dae0e51738a67e63113ab5ac2e15e64871232f97e2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://19e2541bec3f08ce3def9812e29b46326da7d75a6ba802d4877640ca8c449db3",
+				"dweb:/ipfs/QmQCTZKXigzoHj5p5jRnbwWhEXhTRemQLxGvGuJj7CyQhq"
+			]
+		},
+		"PFG/Verificador.sol": {
+			"keccak256": "0x4447070dc799cefd52706b21e5f418154718c1cb68cf36bd2065d330bc15cfcb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a4a781931a3724520365565c999f8fdc6f68f701591af85bb91fd7fba5fbef5a",
+				"dweb:/ipfs/QmXfp4CqE2msJmme88HJ692fG3dDiqWY8MrXWAnwZwWmY5"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763",
+				"dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db7d9939731e6fe2030d53b80f57ce2c1f8044209c1c67e634e81160227d3019",
+				"dweb:/ipfs/QmRLYhZ2Y6bfh83QSD2hCnhVFejevzh77zUTohCCC8yCtu"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Factoring_test.sol": {
+			"keccak256": "0x60cf5a9554ed6fbbd85c17f421544528a7a098d95ac90a39656b002929775e01",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8c674a17f37802c5ffa6f19bd0b0524e5b9e244de38806fbf9ecbcd7fc828c93",
+				"dweb:/ipfs/QmUbSr5XaNoEMYF5gfdLs7jyYjh4ZktQni4ndE3SfAzXXR"
+			]
+		}
+	},
+	"version": 1
+}
